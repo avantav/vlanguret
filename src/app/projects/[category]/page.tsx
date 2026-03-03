@@ -8,6 +8,8 @@ import { notFound } from 'next/navigation';
 import { ProjectCategory, Project } from '@/types';
 import { createMetadata } from '@/lib/metadata';
 
+export const runtime = 'edge';
+
 // ISR: Revalidar cada hora
 export const revalidate = 3600;
 

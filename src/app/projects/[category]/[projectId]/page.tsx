@@ -9,6 +9,8 @@ import { notFound } from 'next/navigation';
 import { Project } from '@/types';
 import { createProjectMetadata } from '@/lib/metadata';
 
+export const runtime = 'edge';
+
 // ISR: Revalidar cada hora
 export const revalidate = 3600;
 
