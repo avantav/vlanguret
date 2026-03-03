@@ -1,0 +1,93 @@
+export const connectData = {
+  profile: {
+    name: "VLanguret",
+    tagline: "Luxury Interior Design & Remodeling",
+    description: "Transform your home into a masterpiece. Premium interior design and custom remodeling services in Arizona.",
+    logo: "/logo_original.png",
+  },
+  contact: {
+    phone: "480-466-4693",
+    phone2: "480-495-4660",
+    phoneFormatted: "(480) 466-4693",
+    phoneWhatsApp: "14804664693",
+    email: "info@vlanguret.com",
+    location: "Tempe, Arizona & Hermosillo, Mexico",
+    fullAddress: "2211 S 48th St Suite H, Tempe, AZ 85282",
+    mexicoAddress: "Tamaulipas #80, 83010, Hermosillo, Sonora",
+    mexicoPhone: "+52 662 214 6692",
+    rocLicense: "ROC 335633, ROC 335636",
+  },
+  links: {
+    calendly: "https://calendly.com/vlanguret-info/30min",
+    schedule: "/schedule",
+    website: "https://vlanguret.com",
+    portfolio: "/projects",
+  },
+  social: [
+    {
+      platform: "Instagram",
+      handle: "@vlanguret",
+      url: "https://www.instagram.com/vlanguret/",
+      icon: "instagram",
+    },
+    {
+      platform: "TikTok",
+      handle: "@vlanguret",
+      url: "https://www.tiktok.com/@vlanguret",
+      icon: "tiktok",
+    },
+  ],
+  schedule: {
+    timezone: "America/Phoenix",
+    hours: [
+      { day: "Monday", open: "9:00 AM", close: "5:00 PM", isOpen: true },
+      { day: "Tuesday", open: "9:00 AM", close: "5:00 PM", isOpen: true },
+      { day: "Wednesday", open: "9:00 AM", close: "5:00 PM", isOpen: true },
+      { day: "Thursday", open: "9:00 AM", close: "5:00 PM", isOpen: true },
+      { day: "Friday", open: "9:00 AM", close: "5:00 PM", isOpen: true },
+      { day: "Saturday", open: "10:00 AM", close: "2:00 PM", isOpen: true },
+      { day: "Sunday", open: "", close: "", isOpen: false },
+    ],
+  },
+  translations: {
+    en: {
+      scheduleCall: "Schedule a Consultation",
+      viewPortfolio: "View Our Portfolio",
+      messageWhatsApp: "Message on WhatsApp",
+      callUs: "Call Us",
+      followUs: "Follow Us",
+      businessHours: "Business Hours",
+      open: "Open",
+      closed: "Closed",
+      openNow: "Open Now",
+      closedNow: "Closed Now",
+    },
+    es: {
+      scheduleCall: "Agendar Consulta",
+      viewPortfolio: "Ver Portafolio",
+      messageWhatsApp: "Mensaje en WhatsApp",
+      callUs: "Llámanos",
+      followUs: "Síguenos",
+      businessHours: "Horario de Atención",
+      open: "Abierto",
+      closed: "Cerrado",
+      openNow: "Abierto Ahora",
+      closedNow: "Cerrado Ahora",
+    },
+  },
+  seo: {
+    title: "Connect with VLanguret | Book a Consultation",
+    description: "Schedule a consultation with VLanguret for luxury interior design and remodeling services in Arizona. Call (480) 466-4693 or message us on WhatsApp.",
+    keywords: [
+      "VLanguret contact",
+      "interior design consultation",
+      "luxury remodeling Arizona",
+      "Tempe interior designer",
+      "home renovation consultation",
+      "custom kitchen design",
+      "bathroom remodel Arizona",
+    ],
+  },
+};
+
+export type ConnectData = typeof connectData;

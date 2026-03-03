@@ -1,0 +1,79 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #FDFAF5;
+  --foreground: #1A1A1A;
+  --wood-light: #F5F0E8;
+  --wood-medium: #D4A574;
+  --wood-dark: #B89968;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-inter), system-ui, -apple-system, sans-serif;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--wood-light);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--wood-medium);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--wood-dark);
+}
+
+/* Selection styles */
+::selection {
+  background: var(--wood-medium);
+  color: white;
+}
+
+/* Focus styles */
+*:focus {
+  outline: 2px solid var(--wood-medium);
+  outline-offset: 2px;
+}
+
+/* Typography utilities */
+.font-serif {
+  font-family: var(--font-cormorant-garamond), serif;
+}
+
+.font-display {
+  font-family: var(--font-playfair-display), serif;
+}
+
+/* Hide scrollbar but allow scrolling */
+.scrollbar-hide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
