@@ -14,8 +14,15 @@ Create a `.env.local` file:
 NEXT_PUBLIC_SANITY_PROJECT_ID=your_project_id
 NEXT_PUBLIC_SANITY_DATASET=production
 SANITY_API_TOKEN=your_api_token
+
+# Email (Resend) - used by /api/inquiry
+RESEND_API_KEY=your_resend_api_key
+INQUIRY_EMAIL=info@vlanguret.com
+
 NEXT_PUBLIC_SITE_URL=https://vlanguret.com
 ```
+
+Never commit real API keys/tokens. If a token is ever pasted into chat/logs, rotate it immediately.
 
 ## Development
 
