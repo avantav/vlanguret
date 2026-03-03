@@ -14,7 +14,7 @@ export default function NotFound() {
       <header className="py-8 px-6 sm:px-8 lg:px-12">
         <Link href="/" className="inline-block">
           <Image
-            src="/logo_original.png"
+            src="/logo-original.png"
             alt="VLanguret Design Build"
             width={200}
             height={60}

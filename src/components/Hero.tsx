@@ -41,7 +41,7 @@ const Hero = ({ heroImages }: HeroProps) => {
     : [
         {
           type: 'image' as const,
-          src: '/logo_original.png',
+          src: '/logo-original.png',
           alt: 'VLanguret Design Build'
         }
       ];

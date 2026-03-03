@@ -28,17 +28,17 @@ const publications: Publication[] = [
     description: 'VLanguret Design Build was featured in Stroll Seville Magazine, showcasing our commitment to luxury interior design and exceptional craftsmanship in the Scottsdale and Paradise Valley area.',
     images: [
       {
-        src: '/images/press/May_2025_Stroll_Seville_page_18.jpg',
+        src: '/images/press/may-2025-stroll-seville-page-18.jpg',
         alt: 'Stroll Seville Magazine May 2025 - Page 18',
         caption: 'Page 18',
       },
       {
-        src: '/images/press/May_2025_Stroll_Seville_pages_20_21.jpg',
+        src: '/images/press/may-2025-stroll-seville-pages-20-21.jpg',
         alt: 'Stroll Seville Magazine May 2025 - Pages 20-21',
         caption: 'Pages 20-21',
       },
       {
-        src: '/images/press/May_2025_Stroll_Seville_pages_22_23.jpg',
+        src: '/images/press/may-2025-stroll-seville-pages-22-23.jpg',
         alt: 'Stroll Seville Magazine May 2025 - Pages 22-23',
         caption: 'Pages 22-23',
       },

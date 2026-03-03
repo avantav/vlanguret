@@ -65,7 +65,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center">
             <div className={`relative h-14 sm:h-16 w-auto transition-all duration-500 ${logoBounce ? 'animate-logo-bounce' : ''}`}>
               <Image
-                src="/logo_original.png"
+                src="/logo-original.png"
                 alt="VLanguret Design Build"
                 width={500}
                 height={150}
@@ -169,7 +169,7 @@ const Navbar = () => {
           <Link href="/" className="flex items-center">
             <div className={`relative h-16 xl:h-20 w-auto transition-all duration-500 ${logoBounce ? 'animate-logo-bounce' : ''}`}>
               <Image
-                src="/logo_original.png"
+                src="/logo-original.png"
                 alt="VLanguret Design Build"
                 width={600}
                 height={180}

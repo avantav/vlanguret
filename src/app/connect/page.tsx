@@ -57,7 +57,7 @@ export default function ConnectPage() {
           className="mb-8"
         >
           <Image
-            src="/logo_original.png"
+            src="/logo-original.png"
             alt="VLanguret Design Build"
             width={180}
             height={180}

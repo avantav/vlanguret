@@ -28,7 +28,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           '@type': 'Organization',
           name: 'VLanguret Design Build LLC',
           url: baseUrl,
-          logo: `${baseUrl}/logo_original.png`,
+          logo: `${baseUrl}/logo-original.png`,
           image: `${baseUrl}/opengraph.jpg`,
           description: 'Professional interior design and construction services in Tempe, Arizona. Full-service design build contractor with over 15 years of experience. Kitchen and bathroom remodeling, custom cabinets, countertops, and flooring.',
           foundingDate: '2009',
@@ -78,7 +78,7 @@ const StructuredData = ({ type, data }: StructuredDataProps) => {
           telephone: '+1-480-466-4693',
           email: 'info@vlanguret.com',
           image: `${baseUrl}/opengraph.jpg`,
-          logo: `${baseUrl}/logo_original.png`,
+          logo: `${baseUrl}/logo-original.png`,
           address: {
             '@type': 'PostalAddress',
             streetAddress: '2211 S 48th St Suite H',

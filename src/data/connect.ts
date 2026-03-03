@@ -3,7 +3,7 @@ export const connectData = {
     name: "VLanguret",
     tagline: "Luxury Interior Design & Remodeling",
     description: "Transform your home into a masterpiece. Premium interior design and custom remodeling services in Arizona.",
-    logo: "/logo_original.png",
+    logo: "/logo-original.png",
   },
   contact: {
     phone: "480-466-4693",
