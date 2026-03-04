@@ -196,7 +196,7 @@ const Navbar = () => {
             onMouseEnter={() => setIsProjectsDropdownOpen(true)}
             onMouseLeave={() => setIsProjectsDropdownOpen(false)}
           >
-            <Link
+            {/* <Link
               href="/projects"
               className={`flex items-center gap-1.5 font-sans text-[13px] font-normal tracking-wide transition-colors duration-300 ${textColor} ${textHover}`}
             >
@@ -209,7 +209,7 @@ const Navbar = () => {
               >
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={1.5} d="M19 9l-7 7-7-7" />
               </svg>
-            </Link>
+            </Link> */}
 
             <div className="absolute top-full left-0 right-0 h-4" />
             <div
