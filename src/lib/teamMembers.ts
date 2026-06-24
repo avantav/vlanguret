@@ -41,14 +41,14 @@ export const staticTeamMembers: StaticTeamMember[] = [
     photoUrl: '/members/vanessa.jpg',
     order: 4,
   },
-  {
-    _id: 'lorena',
-    name: 'Lorena Rosas',
-    role: 'Interior Designer',
-    bio: 'With over six years of experience in residential and commercial design and an architectural background, Lorena leads the design phase from initial concept through final layouts, furniture, and material selections. Her favorite part is seeing spaces come to life and the emotion clients feel when they experience their finished project.',
-    photoUrl: '/members/lorena-rosas.jpg',
-    order: 5,
-  },
+  // {
+  //   _id: 'lorena',
+  //   name: 'Lorena Rosas',
+  //   role: 'Interior Designer',
+  //   bio: 'With over six years of experience in residential and commercial design and an architectural background, Lorena leads the design phase from initial concept through final layouts, furniture, and material selections. Her favorite part is seeing spaces come to life and the emotion clients feel when they experience their finished project.',
+  //   photoUrl: '/members/lorena-rosas.jpg',
+  //   order: 5,
+  // },
   {
     _id: 'fernanda',
     name: 'Fernanda Leon',
